@@ -108,6 +108,73 @@ h3 {
 .bio div p{
  margin-bottom: 0.5rem;
 }
+/*-----Obras-------*/
+.tecno{
+      display: flex;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+    height: 30rem;
+}
+.tecno div {
+    margin-top: 8rem;
+    margin-right: 2rem;
+}
+.tecno div h2{
+     margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #0077b6;
+ font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.tecno div p {
+    margin-bottom: 0.5rem;
+}
+.obras{
+    padding-left:2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+.obras h2 {
+         margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #0077b6;
+ font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;}
+
+.obras ul {
+    list-style: none;
+}
+.obras ul li {
+    display: inline-block;
+    width: 45%;
+    padding-left: 1rem;
+    margin-right: 3rem;
+        font-size: 1.2rem;
+     font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.obras ul li img {
+    margin-left: 2rem;
+}
+.insta img {
+    height: 20rem;
+}
+.multi img {
+    height: 20rem;
+}
+.superman {
+    margin-left: 25%;
+    font-size: 1.2rem;
+     font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /*-----Universo-------*/
 

@@ -1,12 +1,113 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body{
     background-image: url("../img/fondo.png");
 }
 #contenedor {
+    background-color: #ffff;
     width: 100%;
-    max-width: 960px;
-    margin-left: 20%;
+    max-width: 1140px;
+    margin-left: 6rem;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    margin-left: -9%;
+    margin-right: -8.5%;
+}
+nav{
+    color: white;
+    padding-top: 1rem;
+    padding-left: 4rem;
+}
+nav h1 {
+     font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+nav ul {
+    list-style: none;
+    margin-left: 80%;
+}
+nav ul li {
+    display: inline-block;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+}
+nav ul li a {
+   color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+
+}
+nav ul li a:hover{
+    color: #0077b6; 
+    border-bottom: 0.15rem solid #0077b6;}
+ 
+.home{
+    padding-left: 3rem;
+    padding-top: 2rem;
+    height: 35rem;
+    display: flex;
+}
+.info {
+    margin-top: 8rem;
+}
+.info h2 {
+    font-size: 4rem;
+ font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.info p {
+  color: #0077b6; 
+  font-size: 1.1rem;
+}
+.frase {
+    color: black;
+    font-style: italic;
+    font-size: 1.3rem;
+}
+.imagen{
+    margin-bottom: 2rem;
+}
+.arte {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+    height: 19rem;
+}
+h3 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #0077b6;
+ font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.arte p {
+    margin-bottom: 0.5rem;
+}
+.bio{
+    display: flex;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+    height: 30rem;
+}
+.bio div { 
+    margin-top: 4rem;
+    margin-left: 2rem;
+
+}
+.bio div p{
+ margin-bottom: 0.5rem;
+}
+footer{
+    background-color: black;
+    color: white;
 }

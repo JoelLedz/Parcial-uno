@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("../img/fondo.png");
+}
+#contenedor {
+    width: 100%;
+    max-width: 960px;
+    margin-left: 20%;
+}

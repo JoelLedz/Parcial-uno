@@ -1,1 +1,1 @@
-# Parcial-uno
+Joel Javier Ledezma - Primer Parcial - Informática General - Artes Multimediales - UNA

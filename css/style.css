@@ -47,6 +47,7 @@ nav ul li a:hover{
     color: #0077b6; 
     border-bottom: 0.15rem solid #0077b6;}
  
+    /*-----inicio-------*/
 .home{
     padding-left: 3rem;
     padding-top: 2rem;
@@ -107,7 +108,102 @@ h3 {
 .bio div p{
  margin-bottom: 0.5rem;
 }
+
+/*-----Universo-------*/
+
+.lengua {
+    padding-right: 4rem;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    height: 30rem;
+}
+.lengua h2 {
+      margin-bottom: 1.2rem;
+  font-size: 2rem;
+  color: #0077b6;
+ font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.lengua p {
+    margin-bottom: 0.5rem;
+}
+.lengua iframe {
+    margin-left: 25%;
+}
+.perfo {
+     padding-right: 4rem;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    height: 15rem;
+}
+.perfo h2 {
+      margin-bottom: 1.2rem;
+  font-size: 2rem;
+  color: #0077b6;
+ font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.perfo p {
+    margin-bottom: 0.5rem;
+}
+.tecno-arte{
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    height: 30rem;
+    display: flex;
+}
+.tecno-arte div {
+    width: 55%;
+    margin-top: 8rem;
+    margin-right: 3rem;
+}
+.tecno-arte div h2{
+      margin-bottom: 1.2rem;
+  font-size: 2rem;
+  color: #0077b6;
+ font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.tecno-arte div p{
+    margin-bottom: 1.2rem;
+}
+/*-----pie de pagina-------*/
 footer{
+    margin-left: -8.5%;
+    margin-right: -8.7%;
+    padding-top: 1.5rem;
+    display: flex;
+    height: 6rem;
     background-color: black;
     color: white;
+}
+.foter{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+footer p {
+    margin-top: 1.5rem;
+    margin-left: 7%;
+}
+address{
+    margin-left: 7rem;
+    margin-top: -1rem;
+}
+address p{
+    color: #0077b6;
+    font-size: 1.3rem;
+ font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+address a {
+    text-decoration: none;
+    color: white;
+}
+address a:hover{
+    text-decoration:underline;
+    color:#0077b6;
 }
